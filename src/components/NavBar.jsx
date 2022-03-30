@@ -56,7 +56,7 @@ export function NavBar() {
       >
         <MotionPhotosAutoTwoToneIcon></MotionPhotosAutoTwoToneIcon>
         <h3>Algo-Visualizer</h3>
-        { <a href="https://github.com/sadanandpai/sort-visualizer" target="_blank"><AiFillGithub style={{ fontSize: "1.5rem" }} /></a> }
+        { <a href="https://github.com/shivam201483101/mini-proj" target="_blank"><AiFillGithub style={{ fontSize: "1.5rem" }} /></a> }
       </div>
       <AppBar position="static" color="default">
         <Tabs
