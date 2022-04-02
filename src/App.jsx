@@ -1,25 +1,36 @@
-import React from "react";
-import styled from "styled-components";
-import { NavBar } from "./components/NavBar";
-// import { Footer } from "./components/Footer";
-import  {Controller}  from "./components/Controller";
-import { AlgoDisplay } from "./components/AlgoDisplay";
 
-const Container = styled.div`
-  margin: 0 10px;
-  min-height: calc(100vh - 50px);
-  position: relative;
-  margin-bottom: 50px;
-`;
+
+import React from 'react';
+
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import Cards from './components/Cards';
+import Footer from './components/Footer';
+import './App.css';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
+import {Routes} from 'react-router-dom';
 
 export default function App() {
   return (
-    <Container>
-        <NavBar/>
+    <>
+      <Router>
+        <Navbar />
+        <HeroSection />
+        <Cards />
+        <Routes>
+          <Route path='/' exact component={Home} />
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} />
+        </Routes>
+          <Footer />
+      </Router>
  
-      <Controller />
-      <AlgoDisplay />
-      {/* <Footer />   */}
-    </Container>
+    </>
   );
 }
+
