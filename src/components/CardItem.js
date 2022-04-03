@@ -19,15 +19,16 @@ function CardItem(props) {
     <>
       <li className='cards__item'>
         <Link className='cards__item__link' to={props.path}
-         onClick={()=>(
-            <Container>
-            <Nav/>
+        //  onClick={()=>(
+        //     <Container>
+        //     <Nav/>
      
-          <Controller />
-          <AlgoDisplay />
-           <Footer />  
-        </Container>
-          )}>
+        //   <Controller />
+        //   <AlgoDisplay />
+        //    <Footer />  
+        // </Container>
+        //   )}
+        >
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
@@ -35,10 +36,10 @@ function CardItem(props) {
               src={props.src}
              
             />
-            <a target="_blank" href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies" rel="noopener noreferrer">Policies</a>
+           {/* <a target="_blank" href="https://shivam201483101.github.io/mini-proj/">Policies</a> */}
           </figure>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'><a href='https://shivam201483101.github.io/mini-proj/' target="_blank">{props.text}</a></h5>
+            <h5 className='cards__item__text'>{props.text}</h5>
           </div>
         </Link>
       </li>
