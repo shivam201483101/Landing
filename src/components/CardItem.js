@@ -1,47 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from "styled-components";
-import { Nav } from "./Nav";
-import  Footer  from "./Footer";
-import  {Controller}  from "./Controller";
-import { AlgoDisplay } from "./AlgoDisplay";
 
-const Container = styled.div`
-  margin: 0 10px;
-  min-height: calc(100vh - 50px);
-  position: relative;
-  margin-bottom: 50px;
-`;
+
+
+
 
 
 function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <Link className='cards__item__link' to={props.path}
-        //  onClick={()=>(
-        //     <Container>
-        //     <Nav/>
-     
-        //   <Controller />
-        //   <AlgoDisplay />
-        //    <Footer />  
-        // </Container>
-        //   )}
-        >
-          <figure className='cards__item__pic-wrap' data-category={props.label}>
+        <a className='cards__item__link' href={props.path} target="_blank">
+          <div className='cards__item__pic-wrap' >
+          
             <img
               className='cards__item__img'
-              alt='Travel Image'
+              alt=' Image'
               src={props.src}
              
             />
-           {/* <a target="_blank" href="https://shivam201483101.github.io/mini-proj/">Policies</a> */}
-          </figure>
+            
+         </div>
+         <button className="custom-btn btn-12"><span>Click!</span><span>{props.label}</span></button>
           <div className='cards__item__info'>
             <h5 className='cards__item__text'>{props.text}</h5>
           </div>
-        </Link>
+        </a>
       </li>
     </>
   );

@@ -1,51 +1,50 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import Image from './images/sort.png';
+import image2 from './images/path-finder.png';
+import image3 from './images/nqueens.jpg';
+import image4 from './images/word_search.png';
 
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>Check out these Amazing Visualization !</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
           <>  
          
           <CardItem
-              src='./images/img-9.jpg'
-              text='Explore the different types of sorting algo'
+              src={Image}
+              text='Explore the different types of sorting algorithm'
               label='Sorting'
              path='https://shivam201483101.github.io/mini-proj/'
 
             />
             </>
             <CardItem
-              src='./images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
-              path='/services'
+              src={image2}
+              text='Find out different path-Finding-Visualization'
+              label='Path Finder'
+              path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='./images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src={image3}
+              text='Visualize the N Queen Problem'
+              label='N-Queen'
+              path=''
             />
             <CardItem
-              src='./images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src={image4}
+              text='Tree'
+              label='Tree'
+              path=''
             />
-            <CardItem
-              src='./images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
+           
           </ul>
         </div>
       </div>

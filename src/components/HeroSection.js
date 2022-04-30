@@ -2,12 +2,15 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import video from './videos/video-2.mp4';
+
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='./videos/video-2.mp4' autoPlay loop muted type="video/mp4" />
-      <h1>ADVENTURE AWAITS</h1>
+     
+      <video src={video} autoPlay loop muted type="video/mp4" />
+      <h1>There is more to Learn</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
         <Button
@@ -23,7 +26,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          WATCH TRAILER <i className='far fa-play-circle' />
+          Take-A-Sneek<i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

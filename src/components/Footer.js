@@ -9,10 +9,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join to stay in touch with us through e-mails
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          You can unsubscribe any time :)
         </p>
         <div className='input-areas'>
           <form>
@@ -29,35 +29,34 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
+            <h2 >About Us</h2>
+            <Link to='/sign-up'>Developed By:</Link>
+            <Link to='/'>Shivam Pandey</Link>
+            <Link to='/'>Harshpratap Singh</Link>
+            <Link to='/'>Saurabh Shukla</Link>
+         
+                   </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <Link to='/'>Suggestions</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <h2>Help</h2>
+            <Link to='/'>tutorials</Link>
+            <Link to='/'>Sorting Pdf</Link>
+            <Link to='/'>Path Pdf</Link>
+            <Link to='/'>Nqueen Pdf</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/'>LinkedIn</Link>
           </div>
         </div>
       </div>
