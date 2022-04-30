@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Landing/static/css/main.c21fba56.css",
+    "main.js": "/Landing/static/js/main.0501dacc.js",
+    "static/media/video-2.mp4": "/Landing/static/media/video-2.39e6c79bffb375ae929a.mp4",
+    "static/media/sort.png": "/Landing/static/media/sort.c1c66986b8c07d194b05.png",
+    "static/media/path-finder.png": "/Landing/static/media/path-finder.2fbb0a0986b614d1581d.png",
+    "static/media/nqueens.jpg": "/Landing/static/media/nqueens.a212afcbbfb755e8d50b.jpg",
+    "static/media/word_search.png": "/Landing/static/media/word_search.edd194a3fa1040464eac.png",
+    "index.html": "/Landing/index.html",
+    "main.c21fba56.css.map": "/Landing/static/css/main.c21fba56.css.map",
+    "main.0501dacc.js.map": "/Landing/static/js/main.0501dacc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c21fba56.css",
+    "static/js/main.0501dacc.js"
+  ]
+}
