@@ -3,8 +3,8 @@ import './Cards.css';
 import CardItem from './CardItem';
 import Image from './images/sort.png';
 import image2 from './images/path-finder.png';
-import image3 from './images/nqueens.jpg';
-import image4 from './images/word_search.png';
+import image3 from './images/Nquuens.png';
+import image4 from './images/Binary-tree.png';
 
 
 function Cards() {
@@ -28,7 +28,7 @@ function Cards() {
               src={image2}
               text='Find out different path-Finding-Visualization'
               label='Path Finder'
-              path=''
+              path='https://shivam201483101.github.io/path-finder'
             />
           </ul>
           <ul className='cards__items'>
@@ -36,13 +36,13 @@ function Cards() {
               src={image3}
               text='Visualize the N Queen Problem'
               label='N-Queen'
-              path=''
+              path='https://shivam201483101.github.io/NqueensV'
             />
             <CardItem
               src={image4}
-              text='Tree'
-              label='Tree'
-              path=''
+              text='Visualise the concepts of Binary-tree'
+              label='Binary-Tree'
+              path='https://shivam201483101.github.io/treevisualizer'
             />
            
           </ul>
