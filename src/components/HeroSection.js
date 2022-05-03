@@ -6,6 +6,7 @@ import video from './videos/video-2.mp4';
 
 
 function HeroSection() {
+ 
   return (
     <div className='hero-container'>
      
@@ -13,13 +14,13 @@ function HeroSection() {
       <h1>There is more to Learn</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
-        <Button
+        <a href='https://shivam201483101.github.io/mini-proj/'><Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button>
+        </Button></a>
         <Button
           className='btns'
           buttonStyle='btn--primary'

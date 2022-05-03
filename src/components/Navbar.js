@@ -30,7 +30,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-           <a href="https://shivam201483101.github.io/Landing"> <MotionPhotosAutoIcon sx={{ fontSize: 30 }}></MotionPhotosAutoIcon></a>Algo-Visualizer
+      <MotionPhotosAutoIcon sx={{ fontSize: 30 }}></MotionPhotosAutoIcon>Algo-Visualizer
         
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -52,18 +52,8 @@ function Navbar() {
                 Contact Us
               </a>
             </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+         
         </div>
       </nav>
     </>

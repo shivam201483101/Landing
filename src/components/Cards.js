@@ -8,6 +8,7 @@ import image4 from './images/Binary-tree.png';
 
 
 function Cards() {
+  
   return (
     <div className='cards'>
       <h1>Check out these Amazing Visualization !</h1>
@@ -25,26 +26,29 @@ function Cards() {
             />
             </>
             <CardItem
-              src={image2}
-              text='Find out different path-Finding-Visualization'
-              label='Path Finder'
-              path='https://shivam201483101.github.io/path-finder'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
               src={image3}
               text='Visualize the N Queen Problem'
               label='N-Queen'
               path='https://shivam201483101.github.io/NqueensV'
             />
+            
+          </ul>
+          <ul className='cards__items' >
+          <CardItem
+         
+              src={image2}
+              text='Coming Soon:Find out different path-Finding-Visualization'
+              label='Path Finder'
+              path='https://shivam201483101.github.io/path-finder'
+            />
             <CardItem
+           
               src={image4}
-              text='Visualise the concepts of Binary-tree'
+              text='Coming Soon:Visualise the concepts of Binary-tree'
               label='Binary-Tree'
               path='https://shivam201483101.github.io/treevisualizer'
             />
-           
+          
           </ul>
         </div>
       </div>
