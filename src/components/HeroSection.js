@@ -8,7 +8,7 @@ import video from './videos/video-2.mp4';
 function HeroSection() {
  
   return (
-    <div className='hero-container'>
+    <div id="homes" className='hero-container'>
      
       <video src={video} autoPlay loop muted type="video/mp4" />
       <h1>There is more to Learn</h1>
@@ -21,14 +21,14 @@ function HeroSection() {
         >
           GET STARTED
         </Button></a>
-        <Button
+        <a href="https://youtube.com/channel/UC_Gz1XxAbtVnWWcgqWGsbcQ" target="_blank"><Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+         
         >
-          Take-A-Sneek<i className='far fa-play-circle' />
-        </Button>
+          Watch-Tutorial<i className='far fa-play-circle' />
+        </Button></a>
       </div>
     </div>
   );

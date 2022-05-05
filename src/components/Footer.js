@@ -11,25 +11,25 @@ function Footer() {
         <p className='footer-subscription-heading'>
           Join to stay in touch with us through e-mails
         </p>
-        <p className='footer-subscription-text'>
-          You can unsubscribe any time :)
+        <p className='footer-subscription-text' >
+          You can disconnect any time :)
         </p>
         <div className='input-areas'>
-          <form>
+          <form id="contact">
             <input
               className='footer-input'
               name='email'
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Stay-in-touch</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2 >About Us</h2>
+            <h2>About Us</h2>
             <Link to='/sign-up'>Developed By:</Link>
             <Link to='/'>Shivam Pandey</Link>
             <Link to='/'>Harshpratap Singh</Link>
@@ -40,7 +40,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Suggestions</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>Sponsor us</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
