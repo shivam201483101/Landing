@@ -37,14 +37,14 @@ function Cards() {
           <CardItem
          
               src={image2}
-              text='Coming Soon:Find out different path-Finding-Visualization'
+              text='Find out different path-Finding-Visualization'
               label='Path Finder'
               path='https://shivam201483101.github.io/path-finder'
             />
             <CardItem
            
               src={image4}
-              text='Coming Soon:Visualise the concepts of Binary-tree'
+              text='Visualise the concepts of Binary-tree'
               label='Binary-Tree'
               path='https://shivam201483101.github.io/treevisualizer'
             />
